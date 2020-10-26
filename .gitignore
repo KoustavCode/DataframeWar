@@ -73,3 +73,4 @@ jupyterhub_cookie_secret
 *.pemgit
 
 # dask-worker-space
+*/dask-worker-space/
