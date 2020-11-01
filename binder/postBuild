@@ -4,4 +4,4 @@
 jupyter labextension install dask-labextension @jupyter-widgets/jupyterlab-manager
 
 # Install the JupyterLab execute-time extension
-#jupyter labextension install jupyterlab-execute-time @jupyter-widgets/jupyterlab-manager
+jupyter labextension install jupyterlab-execute-time --debug --minimize=False

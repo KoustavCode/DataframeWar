@@ -29,4 +29,5 @@ dependencies:
   - pytables
   - pip:
     - mimesis
-    - dask_labextension  
+    - dask_labextension
+    - s3fs
