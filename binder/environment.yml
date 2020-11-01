@@ -1,0 +1,32 @@
+name: dask-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - bokeh=2.0  # Pinned until distributed 2.19 release due to breaking change
+  - asyncssh
+  - dask
+  - dask-ml
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - nodejs
+  - tornado
+  - numba
+  - numpy
+  - pip
+  - pandas
+  - pyarrow
+  - python-graphviz
+  - seaborn
+  - scikit-learn
+  - matplotlib
+  - nbserverproxy
+  - nomkl
+  - h5py
+  - xarray
+  - requests
+  - pytables
+  - pip:
+    - mimesis
+    - dask_labextension  
